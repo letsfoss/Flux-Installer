@@ -4,9 +4,9 @@
 # Shell Script for Installing Flux in Ubuntu and Ubuntu Based Distro
 # Github: https://github.com/letsfoss/Flux-Installer
 
-# Install JDK8
+# Install Flux
 FluxInstall (){
-	printf "Installing Flux\n"
+    printf "Installing Flux\n"
     printf "\nEverything is automated. You just need to type your Password one time. If you're not running as root\n"
     printf "\n Adding PPA\n"
     sudo add-apt-repository ppa:nathan-renniewaldock/flux -y
